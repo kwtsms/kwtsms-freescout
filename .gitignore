@@ -1,0 +1,11 @@
+vendor/
+composer.lock
+build/
+dist/
+.claude/
+CLAUDE.md
+docs/
+.env*
+*.log
+napkin.md
+.remember/

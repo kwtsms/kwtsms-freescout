@@ -1,0 +1,22 @@
+{
+    "name": "KwtSms",
+    "alias": "kwtsms",
+    "description": "SMS through kwtSMS: alerts to agents and confirmations to customers when a conversation is created.",
+    "version": "1.0.0",
+    "detailsUrl": "https://github.com/kwtsms/kwtsms-freescout",
+    "author": "kwtSMS",
+    "authorUrl": "https://www.kwtsms.com",
+    "requiredAppVersion": "1.8.0",
+    "license": "MIT",
+    "keywords": ["sms", "kwtsms", "kuwait", "notifications"],
+    "active": 0,
+    "order": 0,
+    "providers": [
+        "Modules\\KwtSms\\Providers\\KwtSmsServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

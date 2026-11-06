@@ -1,0 +1,18 @@
+{
+    "name": "kwtsms/kwtsms-freescout",
+    "description": "kwtSMS module for FreeScout",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4",
+        "kwtsms/kwtsms-php": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\KwtSms\\": ""
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
