@@ -9,14 +9,14 @@ the Gulf.
 - **Customer confirmations:** an SMS with the conversation number when a customer with a phone number writes in.
   Off by default.
 - Message templates with `{number}`, `{subject}` and `{name}`. English and Arabic.
-- Test mode: messages are queued on kwtSMS and never delivered, no credits used.
+- Test mode: messages are queued on kwtSMS and never delivered; their credits are held until you delete them from the Sending Queue in your kwtSMS account.
 - The API password is stored encrypted and never shown again in the settings page.
 - A failed SMS never stops a conversation; it is written to the FreeScout log.
 
 ## Requirements
 
 - FreeScout 1.8 or later on PHP 7.4 or later, with curl and json.
-- A kwtSMS account with API access. [Sign up free](https://www.kwtsms.com/signup/).
+- A kwtSMS account with API access. [Free test account](https://www.kwtsms.com/cportal/signup/).
 
 ## Installation
 

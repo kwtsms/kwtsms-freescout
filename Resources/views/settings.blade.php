@@ -35,7 +35,7 @@
                 <input id="kwtsms_test_mode" type="checkbox" name="settings[kwtsms.test_mode]" value="on"
                        @if (old('settings.kwtsms.test_mode', $settings['kwtsms.test_mode']) == 'on') checked="checked" @endif>
             </div>
-            <p class="form-help">{{ __('Messages are queued on kwtSMS but not delivered, and no credits are used.') }}</p>
+            <p class="form-help">{{ __('Messages are queued on kwtSMS but not delivered. Their credits are held until you delete them from the Sending Queue in your kwtSMS account.') }}</p>
         </div>
     </div>
 
