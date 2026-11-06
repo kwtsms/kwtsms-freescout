@@ -15,7 +15,7 @@ the Gulf.
 
 ## Requirements
 
-- FreeScout 1.8 or later on PHP 7.4 or later, with curl and json.
+- FreeScout 1.8 or later (tested on 1.8.249), PHP 7.4 or later with curl and json.
 - A kwtSMS account with API access. [Free test account](https://www.kwtsms.com/cportal/signup/).
 
 ## Installation
