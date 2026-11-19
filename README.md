@@ -3,6 +3,8 @@
 SMS for [FreeScout](https://freescout.net) through [kwtSMS](https://www.kwtsms.com), the SMS gateway for Kuwait and
 the Gulf.
 
+All kwtSMS integrations: [kwtsms.com/integrations](https://www.kwtsms.com/integrations/)
+
 ## Features
 
 - **Agent alerts:** an SMS to your on-call numbers when a customer starts a conversation.
